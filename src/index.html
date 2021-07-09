@@ -48,6 +48,15 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  
+  <script type="text/javascript">    
+    $(function(){ 
+    var navMain = $(".navbar-collapse");
+
+    navMain.on("click", "a", null, function () {
+        navMain.collapse('hide');
+    });
+})
+</script>
+
 </body>
 </html>

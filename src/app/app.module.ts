@@ -7,7 +7,6 @@ import { HomeComponent } from './home/home.component';
 import { ServicesComponent } from './services/services.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ToolsComponent } from './tools/tools.component';
-import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
 import { RouterModule } from '@angular/router';
@@ -22,7 +21,7 @@ import { AboutComponent } from './about/about.component';
     ServicesComponent,
     PortfolioComponent,
     ToolsComponent,
-    ContactComponent,
+   
     FooterComponent,
     HeaderComponent,
     AboutComponent
