@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 import { HomeComponent } from './home/home.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
@@ -19,6 +20,9 @@ path : 'services',component:ServicesComponent
 },
 {
   path: 'tools',component:ToolsComponent
+},
+{
+  path: 'contact',component:ContactComponent
 },
 {
   path:'portfolio',component:PortfolioComponent

@@ -12,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AboutComponent } from './about/about.component';
    
     FooterComponent,
     HeaderComponent,
-    AboutComponent
+    AboutComponent,
+    ContactComponent
   ],
   imports: [
     CommonModule,
